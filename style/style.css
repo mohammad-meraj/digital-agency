@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+nav{
+    max-width: 100%;
+    background-color: #ccc7c7;
+    height: 100px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-size: 22px;
+    margin-left: 600px;
+     padding: 20px;
+}
+ul  a{
+    text-decoration: none;
+    color: black;
+}
+ul a:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 2px;
+    
+    
+}
