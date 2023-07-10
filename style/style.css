@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* general part */
+.color{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
 nav{
     max-width: 100%;
     background-color: #ccc7c7;
@@ -27,6 +32,35 @@ ul a:hover{
     color: rgb(255, 255, 255);
     background-color: black;
     border-radius: 2px;
-    
-    
+}
+.banner{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-image: url("../asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.4),rgba(0, 0,0, 0.3));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner div{
+    width: 50%;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+.title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.btn-g{
+    width: 130px;
+    height: 40px;
+    margin-top: 60px;
+    font-size: 15px;
+    margin: 10px;
+    margin-top: 40px;
+    border: none;
 }
